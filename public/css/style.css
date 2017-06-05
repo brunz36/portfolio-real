@@ -87,6 +87,14 @@ a:focus {
   color: #fff;
 }
 
+#home li div.btn {
+  vertical-align: baseline;
+  padding: 0;
+}
+
+.btn:hover {
+  color: inherit;
+}
 
 #home a.down-btn span.fa.fa-angle-down {
   font-size: 26px;
@@ -654,4 +662,31 @@ nav#footer {
 
 #footer a:hover {
   color: #47a5f7;
+}
+
+.modal-header {
+  background: url(../img/bg1.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  border-bottom: 0;
+}
+
+.close {
+  color: #fff;
+}
+
+.modal-body {
+  background-color: #1d2328;
+}
+
+.modal-footer {
+  background: url(../img/mdfot.jpg);
+  background-size: cover;
+  background-position: center;
+  border-top: 0;
+}
+
+.modal-footer a {
+  color: #fff;
 }

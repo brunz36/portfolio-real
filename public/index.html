@@ -74,7 +74,7 @@
       <li><a href="https://github.com/brunz36" target="_blank"><span class="fa fa-github-square fa-2x"></span></a></li>
       <li><a href="https://www.linkedin.com/in/bruno-ribeiro-17a9bb13b/" target="_blank"><span class="fa fa-linkedin-square fa-2x"></span></a></li>
       <li><a href="mailto:brunz36@gmail.com?Subject=Hello"><span class="fa fa-envelope fa-2x"></span></a></li>
-      <li><a href="img/resume/resume.pdf" target="_blank"><span class="fa fa-file fa-2x"></span></a></li>
+      <li><div type="button" class="btn fa fa-file fa-2x" data-toggle="modal" data-target="#myModal"></div></li>
     </ul>
   </div>
 
@@ -246,7 +246,7 @@
         <h2 class="text-center">Resume</h2>
         <hr>
         <ul class="social text-center">
-          <li><a href="img/resume/resume.pdf" target="_blank"><span class="fa fa-file fa-2x"></span></a></li>
+          <li><a href="https://github.com/brunz36/portfolio-real/raw/master/public/img/resume/resume.pdf"><span class="fa fa-file fa-2x"></span></a></li>
         </ul>
       </div>
     </div>
@@ -260,6 +260,25 @@
     </div>
   </nav>
 
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Bruno Ribeiro Resume</h4>
+        </div>
+        <div class="modal-body">
+          <div class="thumbnail">
+            <img src="img/resume.jpg" alt="resume">
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://github.com/brunz36/portfolio-real/raw/master/public/img/resume/resume.pdf">DOWNLOAD</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
