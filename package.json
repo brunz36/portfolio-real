@@ -5,9 +5,9 @@
     "start": "browser-sync start --server 'public' --files 'public'"
   },
   "dependencies": {
-    "browser-sync": "^2.18.12",
-    "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0",
-    "surge": "^0.19.0"
+    "browser-sync": "^2.27.5",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "surge": "^0.23.0"
   }
 }
